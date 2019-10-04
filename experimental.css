@@ -1,0 +1,29 @@
+.leaflet-control-layers.leaflet-control {
+    position: fixed;
+    left: 25px;
+    bottom: 270px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.leaflet-touch .leaflet-control-layers-toggle {
+    width: 40px;
+    height: 40px;
+}
+
+.leaflet-retina .leaflet-control-layers-toggle {
+    background-size: 26px 26px;
+}
+
+.leaflet-control-layers-list {
+   width: 120px;
+   position: absolute;
+   background: rgba(239,246,255,.8);
+   box-shadow: 0 0 15px rgba(0,0,0,.2);
+   top: 0;
+   border-radius: 10px;
+   padding: 1em;
+}  
